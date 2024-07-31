@@ -15,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/jvvaccari/JobFinder/issues"
   },
-  "homepage": "https://github.com/jvvaccari/JobFinder#readme"
+  "homepage": "https://github.com/jvvaccari/JobFinder#readme",
+  "type": "module" 
 }
