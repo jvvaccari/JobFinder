@@ -1,0 +1,19 @@
+{
+  "name": "jobfinder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jvvaccari/JobFinder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jvvaccari/JobFinder/issues"
+  },
+  "homepage": "https://github.com/jvvaccari/JobFinder#readme"
+}
