@@ -6,7 +6,7 @@ const app = express();
 const port = 8080;
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
-app.use(express.static(join(__dirname, '../public')));
+app.use(express.static(join(__dirname, '../frontend/assets')));
 
 app.get('/', (req, res) => {
     const filePath = join(__dirname,"../frontend/index.html");
