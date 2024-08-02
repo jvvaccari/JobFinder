@@ -3,13 +3,13 @@ body {
     font-style: normal; 
 }
 
-.btn{
+.btn {
     --bs-btn-border-radius: 0;
     --bs-btn-padding-x: 0.900rem;
     --bs-btn-padding-y: 0.360rem;
 }
 
-.btn-main{
+.btn-main {
     --bs-btn-color: #fff;
     --bs-btn-bg: #F63D53;
     --bs-btn-border-color: #F63D53;
@@ -18,43 +18,43 @@ body {
     --bs-btn-hover-border-color: #F63D53;
     --bs-btn-focus-shadow-rgb: #F63D53;
     --bs-btn-active-color: #F63D53;
-    --bs-btn-active-bg: #{shade-color(#E14072, 20%)};
-    --bs-btn-active-border-color: #{shade-color(#fff, 20%)};
+    --bs-btn-active-bg: #d53348;
+    --bs-btn-active-border-color: #d53348;
 }
 
-.navbar-link{
+.navbar-link {
     padding-top: var(--bs-navbar-brand-padding-y);
     padding-bottom: var(--bs-navbar-brand-padding-y);
     margin-right: var(--bs-navbar-brand-margin-end);
     text-decoration: none;
 }
 
-.text-color{
-    color:#272525;
+.text-color {
+    color: #272525;
 }
 
-.bi-search{
+.bi-search {
     pointer-events: none;
     color: #F63D53;
     margin-top: 20px;
     margin-right: -24px;
     z-index: 2;
-} 
+}
 
-.card{
+.card {
     border: solid 2px #272525;
     border-radius: 0;
-    width: 70vw;
+    width: 62vw;
     height: 160px;
 }
 
-.img-jobs{
+.img-jobs {
     max-width: 110px;
     margin-right: -55px;
     z-index: 2;
 }
 
-.new{
+.new {
     margin-right: 80px;
     padding: 5px;
     border: solid 2px #272525;
@@ -80,17 +80,17 @@ body {
     object-fit: cover;
     top: 0;
     left: 0;
-    z-index: 1; 
+    z-index: 1;
 }
 
-#search-input{
-    border:  #fff;
+#search-input {
+    border: none;
     border-radius: 0;
     width: 32vw;
     padding-left: 32px;
 }
 
-#cards-title{
+#cards-title {
     margin: 0 55px;
     margin-top: 50px;
 }
