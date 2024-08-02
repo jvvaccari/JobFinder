@@ -36,10 +36,28 @@ body {
 .bi-search{
     pointer-events: none;
     color: #F63D53;
-    margin-top: 12px;
+    margin-top: 20px;
     margin-right: -24px;
     z-index: 2;
 } 
+
+.card{
+    border: solid 2px #272525;
+    border-radius: 0;
+    width: 70vw;
+    height: 160px;
+}
+
+.img-jobs{
+    max-width: 120px;
+    margin-right: -60px;
+    z-index: 2;
+}
+
+.new{
+    margin-top: 20px;
+    padding-right: 50px;
+}
 
 #search {
     background-color: #062335;
@@ -69,4 +87,9 @@ body {
     border-radius: 0;
     width: 32vw;
     padding-left: 32px;
+}
+
+#cards-title{
+    margin: 0 70px;
+    margin-top: 50px;
 }
