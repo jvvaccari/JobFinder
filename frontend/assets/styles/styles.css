@@ -49,14 +49,15 @@ body {
 }
 
 .img-jobs{
-    max-width: 120px;
-    margin-right: -60px;
+    max-width: 110px;
+    margin-right: -55px;
     z-index: 2;
 }
 
 .new{
-    margin-top: 20px;
-    padding-right: 50px;
+    margin-right: 80px;
+    padding: 5px;
+    border: solid 2px #272525;
 }
 
 #search {
@@ -90,6 +91,6 @@ body {
 }
 
 #cards-title{
-    margin: 0 70px;
+    margin: 0 55px;
     margin-top: 50px;
 }
