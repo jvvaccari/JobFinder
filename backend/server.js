@@ -16,14 +16,16 @@ app.get("/", (req, res) => {
 });
 
 app.get("/jobs", (_, res) => {
-    readFile("./jobs.json", (_, data) => {
-        if (err) {
-            console.error(err);
-            res.status(500).send("Internal Server Error");
-            return;
-        }
-        res.json(data.toJSON());
-    });
+    // readFile(join(__dirname, "../backend/jobs.json"), (err, data) => {
+    //     if (err) {
+    //         console.error(err);
+    //         res.status(500).send("Internal Server Error");
+    //         return;
+    //     } else {
+    //         res.json(data.toJSON());
+    //     }
+    // });
+    res.sendFile(join(__dirname, "../backend/jobs.json"));
 });
 
 app.listen(port, () => console.log(`App listening on port ${port}!`));
