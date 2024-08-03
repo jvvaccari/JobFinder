@@ -8,13 +8,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
             jobs.forEach((job) => {
                 const jobElement = document.createElement("div");
+                console.log(job.image);
                 jobElement.innerHTML = `
-                    <img class="img-jobs" src=${job.image}/>
+                    <img class="img-jobs" src="${job.image}"/>
                     <div class="card d-flex flex-row justify-content-center align-items-center">
                         <div class="d-flex flex-column col-lg-9 col-md-6 px-2 mt-3">
                             <p class="h6">${job.title}</p>
                             <p class="h2">${job.company}</p>
-                            <p class="h7">${job.salary}</p>
+                            <p class="h7">R$${job.salary}</p>
                         </div>
                         <div class="mx-1">
                             <a class="btn btn-main py-3 px-3">Ver Vaga</a>
