@@ -29,7 +29,7 @@ body {
     text-decoration: none;
 }
 
-.text-color {
+.main-text-color {
     color: #272525;
 }
 
@@ -46,18 +46,17 @@ body {
     border-radius: 0;
     width: 62vw;
     height: 160px;
+    z-index: -1;
 }
 
 .img-jobs {
-    max-width: 110px;
-    margin-right: -55px;
-    z-index: 2;
-}
-
-.new {
-    margin-right: 80px;
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    margin-bottom: -180px;
+    margin-left: -55px;
+    background-color: #062335;
     padding: 5px;
-    border: solid 2px #272525;
 }
 
 #search {
@@ -93,4 +92,5 @@ body {
 #cards-title {
     margin: 0 55px;
     margin-top: 50px;
+    margin-left: 18%;
 }

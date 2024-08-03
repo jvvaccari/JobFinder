@@ -2,13 +2,11 @@ document.addEventListener("DOMContentLoaded", () => {
     fetch("http://localhost:8080/jobs")
         .then((response) => response.json())
         .then((jobs) => {
-            console.log(jobs);
             const jobsContainer = document.getElementById("jobs-container");
             jobsContainer.innerHTML = "";
 
             jobs.forEach((job) => {
                 const jobElement = document.createElement("div");
-                console.log(job.image);
                 jobElement.innerHTML = `
                     <img class="img-jobs" src="${job.image}"/>
                     <div class="card d-flex flex-row justify-content-center align-items-center">
