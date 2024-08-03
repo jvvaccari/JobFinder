@@ -1,0 +1,17 @@
+[
+    {
+        "company": "Dev Hub",
+        "title": "Programador React",
+        "salary": 3200
+    },
+    {
+        "company": "New Tech Recruiter",
+        "title": "PHP Developer",
+        "salary": 6500
+    },
+    {
+        "company": "Tech Comp",
+        "title": "Web Developer",
+        "salary": 4000
+    }
+]

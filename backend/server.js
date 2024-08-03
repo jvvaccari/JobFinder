@@ -1,4 +1,5 @@
 import express from "express";
+import { readFile } from "fs";
 import { dirname, join } from "path";
 import { fileURLToPath } from "url";
 
@@ -12,6 +13,12 @@ app.use(express.static(join(__dirname, "../frontend")));
 app.get("/", (req, res) => {
     const filePath = join(__dirname, "../frontend/index.html");
     res.sendFile(filePath);
+});
+
+app.get("/jobs", (_, res) => {
+    readFile("./jobs.json", (_, data) => {
+        res.json(data.toJSON());
+    });
 });
 
 app.listen(port, () => console.log(`App listening on port ${port}!`));
