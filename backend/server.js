@@ -17,6 +17,11 @@ app.get("/", (req, res) => {
 
 app.get("/jobs", (_, res) => {
     readFile("./jobs.json", (_, data) => {
+        if (err) {
+            console.error(err);
+            res.status(500).send("Internal Server Error");
+            return;
+        }
         res.json(data.toJSON());
     });
 });
