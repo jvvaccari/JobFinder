@@ -3,6 +3,19 @@ body {
     font-style: normal; 
 }
 
+.navbar{
+    width: 100vw; 
+    z-index: 3;
+}
+
+.title{
+    font-size: 4rem
+}
+
+.sub-title{
+    font-size: 2rem;
+}
+
 .btn {
     --bs-btn-border-radius: 0;
     --bs-btn-padding-x: 0.900rem;
@@ -63,7 +76,7 @@ body {
     background-color: #062335;
     height: 100vh;
     position: relative;
-    padding-top: 6rem;
+    padding-top: 10rem;
 }
 
 #search main {
@@ -71,6 +84,7 @@ body {
     position: relative;
     z-index: 2;
     align-items: center;
+    margin-top: -6rem
 }
 
 #background-photo {
