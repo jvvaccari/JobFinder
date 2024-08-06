@@ -118,4 +118,10 @@ body {
     #search-bar {
         margin-top: -3rem;
     }
+
+    .img-jobs {
+        height: 5rem;
+        width: 5rem;
+        margin-left: -2.5rem;
+    }
 }
