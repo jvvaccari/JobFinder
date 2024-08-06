@@ -30,7 +30,7 @@ body {
     --bs-btn-hover-bg: #fff;
     --bs-btn-hover-border-color: #F63D53;
     --bs-btn-focus-shadow-rgb: #F63D53;
-    --bs-btn-active-color: #F63D53;
+    --bs-btn-active-color: #fff;
     --bs-btn-active-bg: #d53348;
     --bs-btn-active-border-color: #d53348;
 }
