@@ -3,13 +3,26 @@ body {
     font-style: normal; 
 }
 
-.btn{
+.navbar{
+    width: 100vw; 
+    z-index: 3;
+}
+
+.title{
+    font-size: 4rem
+}
+
+.sub-title{
+    font-size: 2rem;
+}
+
+.btn {
     --bs-btn-border-radius: 0;
     --bs-btn-padding-x: 0.900rem;
     --bs-btn-padding-y: 0.360rem;
 }
 
-.btn-main{
+.btn-main {
     --bs-btn-color: #fff;
     --bs-btn-bg: #F63D53;
     --bs-btn-border-color: #F63D53;
@@ -18,34 +31,52 @@ body {
     --bs-btn-hover-border-color: #F63D53;
     --bs-btn-focus-shadow-rgb: #F63D53;
     --bs-btn-active-color: #F63D53;
-    --bs-btn-active-bg: #{shade-color(#E14072, 20%)};
-    --bs-btn-active-border-color: #{shade-color(#fff, 20%)};
+    --bs-btn-active-bg: #d53348;
+    --bs-btn-active-border-color: #d53348;
 }
 
-.navbar-link{
+.navbar-link {
     padding-top: var(--bs-navbar-brand-padding-y);
     padding-bottom: var(--bs-navbar-brand-padding-y);
     margin-right: var(--bs-navbar-brand-margin-end);
     text-decoration: none;
 }
 
-.text-color{
-    color:#272525;
+.main-text-color {
+    color: #272525;
 }
 
-.bi-search{
+.bi-search {
     pointer-events: none;
     color: #F63D53;
-    margin-top: 12px;
+    margin-top: 20px;
     margin-right: -24px;
     z-index: 2;
-} 
+}
+
+.card {
+    border: solid 2px #272525;
+    border-radius: 0;
+    width: 62vw;
+    height: 10rem;
+    z-index: -1;
+}
+
+.img-jobs {
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    margin-bottom: -11.25rem;
+    margin-left: -3rem;
+    background-color: #062335;
+    padding: 5px;
+}
 
 #search {
     background-color: #062335;
     height: 100vh;
     position: relative;
-    padding-top: 75px;
+    padding-top: 10rem;
 }
 
 #search main {
@@ -53,6 +84,7 @@ body {
     position: relative;
     z-index: 2;
     align-items: center;
+    margin-top: -8rem
 }
 
 #background-photo {
@@ -61,12 +93,29 @@ body {
     object-fit: cover;
     top: 0;
     left: 0;
-    z-index: 1; 
+    z-index: 1;
 }
 
-#search-input{
-    border:  #fff;
+#search-input {
+    border: none;
     border-radius: 0;
     width: 32vw;
-    padding-left: 32px;
+    padding-left: 2rem;
+}
+
+#cards-title {
+    margin: 0 3.4rem;
+    margin-top: 3.4rem;
+    margin-left: 18%;
+}
+
+@media screen and (min-width: 0px) and (max-width: 1024px) {
+    #search main {
+        gap: 0;
+        margin-top: -6rem;
+    }
+
+    #search-bar {
+        margin-top: -3rem;
+    }
 }
