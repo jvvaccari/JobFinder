@@ -30,7 +30,7 @@ body {
     --bs-btn-hover-bg: #fff;
     --bs-btn-hover-border-color: #F63D53;
     --bs-btn-focus-shadow-rgb: #F63D53;
-    --bs-btn-active-color: #F63D53;
+    --bs-btn-active-color: #fff;
     --bs-btn-active-bg: #d53348;
     --bs-btn-active-border-color: #d53348;
 }
@@ -59,17 +59,17 @@ body {
     border-radius: 0;
     width: 62vw;
     height: 10rem;
-    z-index: -1;
+    position: relative;
 }
 
 .img-jobs {
     height: 6rem;
     width: 6rem;
     border-radius: 50%;
-    margin-bottom: -11.25rem;
-    margin-left: -3rem;
+    left: -3rem;
     background-color: #062335;
     padding: 5px;
+    position: absolute;
 }
 
 #search {
