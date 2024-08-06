@@ -59,15 +59,15 @@ body {
     border-radius: 0;
     width: 62vw;
     height: 10rem;
-    z-index: -1;
+    position: relative;
 }
 
 .img-jobs {
     height: 6rem;
     width: 6rem;
     border-radius: 50%;
-    margin-bottom: -11.25rem;
-    margin-left: -3rem;
+    margin-left: -10rem;
+    margin-right: 1.5rem;
     background-color: #062335;
     padding: 5px;
 }
