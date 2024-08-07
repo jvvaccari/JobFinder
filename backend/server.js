@@ -9,7 +9,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 app.use(express.static(join(__dirname, "../")));
 app.use(express.static(join(__dirname, "../frontend")));
 
-app.get("/", (req, res) => {
+app.get("/", (_, res) => {
     const filePath = join(__dirname, "../frontend/index.html");
     res.sendFile(filePath);
 });
